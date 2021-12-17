@@ -1,10 +1,10 @@
-package com.cause.trade;
+package com.cause.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TradeApplicationTests {
+class ControllerApplicationTests {
 
   @Test
   void contextLoads() {

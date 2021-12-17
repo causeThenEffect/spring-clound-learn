@@ -1,4 +1,4 @@
-package com.cause.trade.service;
+package com.cause.controller.service;
 
 import com.cause.basic.threadlocal.UserHeaderHodler;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
  * @date 2021/12/10
  */
 @Service
-public class TradeService {
+public class Service1 {
 
   /**
    * 拦截器和service方法同处于一个线程，所以可以通过这种方式，保证userHeader的线程安全

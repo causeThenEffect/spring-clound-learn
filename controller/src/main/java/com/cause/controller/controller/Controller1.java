@@ -1,7 +1,6 @@
-package com.cause.trade.controller;
+package com.cause.controller.controller;
 
-import com.cause.basic.base.resp.RestResponse;
-import com.cause.trade.service.TradeService;
+import com.cause.controller.service.Service1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/12/10
  */
 @RestController
-public class TradeController {
+public class Controller1 {
 
   @Autowired
-  TradeService tradeService;
+  Service1 service1;
 
   @GetMapping("/m1")
-  public RestResponse<String> m1() {
-    return RestResponse.ok("");
+  public String m1() {
+    return service1.m1();
   }
 
 }

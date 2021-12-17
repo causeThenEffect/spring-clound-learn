@@ -1,13 +1,16 @@
-package com.cause.trade;
+package com.cause.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author cause
+ */
 @SpringBootApplication
-public class TradeApplication {
+public class ControllerApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(TradeApplication.class, args);
+    SpringApplication.run(ControllerApplication.class, args);
   }
 
 }
