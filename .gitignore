@@ -35,3 +35,7 @@ build/
 /**/logs
 .log
 .log.gz
+
+/**/mvnw
+/**/mvnw.cmd
+recursively
